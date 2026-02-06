@@ -33,7 +33,7 @@ import {
 } from 'lucide-react';
 import { Medication, AdherenceLog, AdherenceStatus, UserProfile, CaregiverProfile } from './types';
 import { NAV_ITEMS, COLORS, MEDICINE_QUOTES } from './constants';
-import AdherenceChart from './adherenceChart';
+import AdherenceChart from './AdherenceChart';
 import { getHealthInsights } from './geminiService';
 
 interface Notification {
